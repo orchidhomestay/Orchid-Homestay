@@ -10,7 +10,7 @@ Orchid Homestay — full site review
 
 Hero promise: "A quiet hill home wrapped in mist, tea and birdsong" — sets a slow, restful tone rather than a hotel-deal tone.
 
-Four proof numbers: 1,100 m altitude · 4 family rooms · 18 km to Mudumalai · host on site 24 hr. These answer the questions people actually ask before enquiring.
+Four proof numbers: 1,100 m altitude · 2 family rooms · 5 km to Mudumalai · host on site 24 hr. These answer the questions people actually ask before enquiring.
 
 The Stay: two short paragraphs on space, greenery, new interiors, the swing, and home-cooked Kerala/Tamil food. Positioned against hotels — "space, not a lobby" — which is the right wedge for families.
 
@@ -18,7 +18,7 @@ Amenities: eight items (cool rooms, home meals, Wi-Fi, free parking, bonfire, pl
 
 Gallery: seven of your own photos — terrace views, bedroom, swing, dining hall, lounge, bougainvillea. Real, unstaged photos read as more honest than stock, which suits a homestay.
 
-Location: distances to Ooty (50 km), Mudumalai (18 km), Pykara (35 km), Wayanad (40 km), Needle Rock (8 km), Gudalur town (3 km), plus a live map. This frames the house as a base camp between three destinations, which is its strongest selling point.
+Location: distances to Ooty (50 km), Mudumalai (5 km), Pykara (35 km), Wayanad (40 km), Needle Rock (8 km), Gudalur town (3 km), plus a live map. This frames the house as a base camp between three destinations, which is its strongest selling point.
 
 Contact: both numbers, email and directions repeated in the footer.
 
@@ -40,7 +40,7 @@ Rhythm: white sections alternate with misty rounded panels, so the page reads as
 
 Header: sticky, with the name, the region line, four section links, and a permanent WhatsApp button. The user is never more than one tap from enquiring.
 
-Enquiry widget: appears twice — over the hero and again in the booking section. Check-in date, check-out date, guests (1–16) and rooms (1–4). On tapping through, WhatsApp opens with a pre-written message containing the dates in readable form ("Sat, 12 Sep 2026"), the guest count and the room count, plus a request for availability and tariff. Nothing is required, so an undecided visitor can still send an enquiry with "to be decided" dates instead of being blocked.
+Enquiry widget: appears twice — over the hero and again in the booking section. Check-in date, check-out date, guests (1–16) and rooms (1–2). On tapping through, WhatsApp opens with a pre-written message containing the dates in readable form ("Sat, 12 Sep 2026"), the guest count and the room count, plus a request for availability and tariff. Nothing is required, so an undecided visitor can still send an enquiry with "to be decided" dates instead of being blocked.
 
 Redundant paths: floating WhatsApp button, header button, hero buttons, both phone numbers as tap-to-call, map button, footer social icons. No dead ends.
 

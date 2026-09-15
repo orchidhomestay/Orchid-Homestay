@@ -13,7 +13,7 @@ import hero from "@/assets/hero-mist.jpg";
 
 const TITLE = "Orchid Homestay, Gudalur — Family Homestay in The Nilgiris";
 const DESCRIPTION =
-  "A quiet family-run homestay at Thorapalli, Gudalur, The Nilgiris. Four rooms at 1,100 m, home-cooked Kerala and Tamil food, 18 km to Mudumalai and 50 km to Ooty. Enquire on WhatsApp.";
+  "A quiet family-run homestay at Thorapalli, Gudalur, The Nilgiris. Two rooms at 1,100 m, home-cooked Kerala and Tamil food, 5 km to Mudumalai and 50 km to Ooty. Enquire on WhatsApp.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -50,7 +50,7 @@ export const Route = createFileRoute("/")({
           },
           telephone: [CONTACT.phonePrimary, CONTACT.phoneSecondary],
           email: CONTACT.email,
-          numberOfRooms: 4,
+          numberOfRooms: 2,
         }),
       },
     ],
@@ -211,8 +211,8 @@ function Home() {
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {[
               { node: <CountUp to={1100} suffix=" m" />, label: "altitude" },
-              { node: <CountUp to={4} />, label: "family rooms" },
-              { node: <CountUp to={18} suffix=" km" />, label: "to Mudumalai" },
+              { node: <CountUp to={2} />, label: "family rooms" },
+              { node: <CountUp to={5} suffix=" km" />, label: "to Mudumalai" },
               { node: <CountUp to={24} suffix=" hr" />, label: "host on site" },
             ].map((p, i) => (
               <Reveal key={p.label} delay={i * 60}>
@@ -246,7 +246,7 @@ function Home() {
                 <div className="mt-9 grid grid-cols-3 gap-4">
                   {[
                     { v: "1,100 m", l: "Above the hills" },
-                    { v: "4", l: "Family rooms" },
+                    { v: "2", l: "Family rooms" },
                     { v: "Tea", l: "All around you" },
                   ].map((f, i) => (
                     <Reveal key={f.l} delay={i * 60}>

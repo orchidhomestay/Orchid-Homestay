@@ -75,7 +75,7 @@ export function EnquiryWidget({
             Rooms
           </span>
           <select value={rooms} onChange={(e) => setRooms(Number(e.target.value))} className={field}>
-            {[1, 2, 3, 4].map((n) => (
+            {[1, 2].map((n) => (
               <option key={n} value={n}>
                 {n} {n === 1 ? "room" : "rooms"}
               </option>

@@ -65,7 +65,7 @@ export const DEFAULT_ABOUT: AboutSettings = {
   heroTitle: "A quiet hill home wrapped in mist, tea and birdsong",
   stayHeading: "The stay",
   stayParagraph1:
-    "The house sits among plantation greenery at 1,100 m, with four family rooms, newly finished interiors and a swing in the garden. You get space, not a lobby — room for children to run, a terrace to sit out on, and quiet that starts as soon as you turn off the road.",
+    "The house sits among plantation greenery at 1,100 m, with two family rooms, newly finished interiors and a swing in the garden. You get space, not a lobby — room for children to run, a terrace to sit out on, and quiet that starts as soon as you turn off the road.",
   stayParagraph2:
     "Meals are cooked at home in the Kerala and Tamil way and served in the dining hall. One of us is on the property all day, so tea, directions or an extra blanket is a matter of asking.",
   locationHeading: "A base between three hills",
@@ -117,7 +117,7 @@ export const DEFAULT_AMENITIES: Amenity[] = [
 export const DEFAULT_DISTANCES: Distance[] = [
   { id: "k1", place: "Gudalur town", km: "3 km", sort_order: 1 },
   { id: "k2", place: "Needle Rock viewpoint", km: "8 km", sort_order: 2 },
-  { id: "k3", place: "Mudumalai", km: "18 km", sort_order: 3 },
+  { id: "k3", place: "Mudumalai", km: "5 km", sort_order: 3 },
   { id: "k4", place: "Pykara", km: "35 km", sort_order: 4 },
   { id: "k5", place: "Wayanad", km: "40 km", sort_order: 5 },
   { id: "k6", place: "Ooty", km: "50 km", sort_order: 6 },

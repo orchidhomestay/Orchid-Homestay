@@ -6,7 +6,7 @@ const ESCAPES = [
     id: "family",
     title: "Family time",
     note: "Quiet rooms, homemade meals and space to be together.",
-    highlights: ["4 family rooms", "Home-cooked meals", "Garden and swing"],
+    highlights: ["2 family rooms", "Home-cooked meals", "Garden and swing"],
   },
   {
     id: "nature",
@@ -24,7 +24,7 @@ const ESCAPES = [
     id: "explore",
     title: "Explore the Nilgiris",
     note: "A peaceful base for discovering the region.",
-    highlights: ["Mudumalai 18 km", "Ooty 50 km", "Wayanad 40 km"],
+    highlights: ["Mudumalai 5 km", "Ooty 50 km", "Wayanad 40 km"],
   },
 ] as const;
 
