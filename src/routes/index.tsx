@@ -102,20 +102,20 @@ function Home() {
 
   return (
     <div className="min-h-screen overflow-x-hidden bg-background text-foreground">
-      <header className="sticky top-0 z-40 border-b border-border/70 bg-background/85 backdrop-blur-md">
+      <header className="sticky top-0 z-40 border-b border-forest-foreground/15 bg-forest/95 text-forest-foreground backdrop-blur-md shadow-soft">
         <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3 sm:px-6">
-          <a href="#top" className="min-w-0">
-            <span className="block truncate font-display text-lg font-bold tracking-tight">
+          <a href="#top" className="group min-w-0">
+            <span className="block truncate font-display text-lg font-bold tracking-tight text-forest-foreground transition-colors group-hover:text-accent">
               {contact.name}
             </span>
-            <span className="block truncate text-xs text-muted-foreground">{contact.region}</span>
+            <span className="block truncate text-xs text-forest-foreground/75">{contact.region}</span>
           </a>
-          <nav className="ml-auto hidden items-center gap-7 text-sm font-medium md:flex">
+          <nav className="ml-auto hidden items-center gap-1.5 text-sm font-medium md:flex">
             {NAV.map((n) => (
               <a
                 key={n.href}
                 href={n.href}
-                className="text-foreground/75 transition-colors duration-300 hover:text-accent"
+                className="rounded-full px-4 py-1.5 text-forest-foreground/85 transition-all duration-300 hover:bg-forest-foreground/15 hover:text-forest-foreground"
               >
                 {n.label}
               </a>
@@ -126,7 +126,7 @@ function Home() {
             target="_blank"
             rel="noopener"
             onClick={() => trackClick("whatsapp", "header")}
-            className="ml-auto rounded-full bg-whatsapp px-4 py-2.5 text-sm font-semibold text-whatsapp-foreground shadow-soft transition hover:brightness-95 md:ml-0"
+            className="ml-auto rounded-full bg-whatsapp px-4.5 py-2.5 text-sm font-semibold text-whatsapp-foreground shadow-soft transition hover:brightness-110 md:ml-2"
           >
             WhatsApp
           </a>
@@ -135,19 +135,19 @@ function Home() {
             aria-label="Menu"
             aria-expanded={menu}
             onClick={() => setMenu((v) => !v)}
-            className="rounded-full border border-border px-3 py-2 text-sm md:hidden"
+            className="rounded-full border border-forest-foreground/25 px-3 py-2 text-sm text-forest-foreground hover:bg-forest-foreground/10 md:hidden"
           >
             ☰
           </button>
         </div>
         {menu && (
-          <nav className="grid gap-1 border-t border-border px-4 py-3 text-sm md:hidden">
+          <nav className="grid gap-1 border-t border-forest-foreground/15 bg-forest px-4 py-3 text-sm md:hidden">
             {NAV.map((n) => (
               <a
                 key={n.href}
                 href={n.href}
                 onClick={() => setMenu(false)}
-                className="rounded-2xl px-3 py-2 hover:bg-mist"
+                className="rounded-2xl px-3 py-2 text-forest-foreground/90 hover:bg-forest-foreground/15 hover:text-forest-foreground"
               >
                 {n.label}
               </a>
@@ -642,9 +642,9 @@ function Home() {
       <FloatingWhatsApp href={simpleWa} />
 
       {/* Mobile bottom bar */}
-      <nav className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-4 border-t border-border bg-background/95 backdrop-blur-md md:hidden">
+      <nav className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-4 border-t border-forest-foreground/15 bg-forest/95 text-forest-foreground backdrop-blur-md md:hidden">
         {NAV.map((n) => (
-          <a key={n.href} href={n.href} className="py-3.5 text-center text-xs font-medium">
+          <a key={n.href} href={n.href} className="py-3.5 text-center text-xs font-semibold text-forest-foreground/85 transition-colors hover:text-accent">
             {n.label}
           </a>
         ))}
